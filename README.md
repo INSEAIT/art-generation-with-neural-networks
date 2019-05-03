@@ -13,9 +13,14 @@ content_image = scipy.misc.imread("images/your_image_here.jpg")
 style_image = scipy.misc.imread("images/your_style_here.jpg")
 ```
 ### Step 3 : 
-in the line 69 , the number of itereration by default is 400 , you can increase the number and see if the perfoemance will increase too ! 
+in the line 69 of style.py , the number of itereration by default is 400 , you can increase the number and see if the perfoemance will increase too ! 
 ```
 def model_nn(sess, input_image, num_iterations = 400):
+```
+### Step 4 :
+make sure to install all the required libs and then run : 
+```
+python style.py
 ```
 ## Exemple : 
 the input images (content and style) : 
