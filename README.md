@@ -38,6 +38,7 @@ The results :
   <img src = 'output/generated_image.jpg'>
 </p>
 you can check in the output folder the images generated after each 20 iteration .
+
 ### Attributions
 - Some readme/docs formatting was borrowed from longstorm [fast style transfer](https://github.com/lengstrom/fast-style-transfer)
 
