@@ -17,7 +17,22 @@ in the line 69 , the number of itereration by default is 400 , you can increase 
 ```
 def model_nn(sess, input_image, num_iterations = 400):
 ```
-### Attributions/Thanks 
+## Exemple : 
+the input images (content and style) : 
+<p align = 'center'>
+  <img src = 'images/my_content.jpg'>
+  <img src = 'images/my_style.jpg'>
+</p>
+The results : 
+- iteration 0 :
+<p align = 'center'>
+  <img src = 'output/0.png'>
+</p>
+- iteration 400:
+<p align = 'center'>
+  <img src = 'output/generated_image.jpg'>
+</p>
+### Attributions
 - The project also borrowed some code from Anish's [Neural Style](https://github.com/anishathalye/neural-style/)
 - Some readme/docs formatting was borrowed from longstorm [fast-style-transfer
 ](https://github.com/lengstrom/fast-style-transfer)
