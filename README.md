@@ -32,6 +32,7 @@ The results :
 <p align = 'center'>
   <img src = 'output/generated_image.jpg'>
 </p>
+
 ### Attributions
 - The project also borrowed some code from Anish's [Neural Style](https://github.com/anishathalye/neural-style/)
 - Some readme/docs formatting was borrowed from longstorm [fast-style-transfer
