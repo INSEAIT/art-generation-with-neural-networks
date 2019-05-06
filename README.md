@@ -6,7 +6,7 @@ This implementation of style transfer uses TensorFlow to train a style transfer 
 ### Step1 :
 Before trying the model, download the pretrained model from [here](https://www.kaggle.com/teksab/imagenetvggverydeep19mat#imagenet-vgg-verydeep-19.mat) and extract it to the folder ('pretrained-model').
 ### Step 2 : 
-Add both your content image and style image to the folder ('images') and make sure to reshape them to 400x300 and rename them respectively to my_content and my_style or you can just edit the code to use the names you like : 
+Add both your content image and style image to the folder ('images') and make sure to [resize](http://picresize.com/) them to 400x300 and rename them respectively to my_content and my_style or you can just edit the code to use the names you like : 
 ```
 content_image = scipy.misc.imread("images/your_image_here.jpg")
 style_image = scipy.misc.imread("images/your_style_here.jpg")
